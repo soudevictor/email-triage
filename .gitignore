@@ -1,0 +1,33 @@
+# ============================================================
+# Segredos e configurações locais
+# ============================================================
+# A chave da API NÃO deve existir no repositório.
+# No Apps Script ela fica em: Configurações do projeto > Propriedades do script
+.env
+.env.*
+*.env
+
+# ============================================================
+# clasp (Google Apps Script CLI)
+# ============================================================
+.clasp.json
+.clasprc.json
+.claspignore.local
+
+# ============================================================
+# Node.js
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ============================================================
+# Sistema operacional / editores
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+.~lock*
